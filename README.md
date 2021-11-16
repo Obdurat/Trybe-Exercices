@@ -1,6 +1,6 @@
 # Trybe
 
-This repository contains all the learning activities developed by _[Seu Nome Aqui](link para seu LinkedIn)_ while studying at [Trybe](https://www.betrybe.com/ ) 🚀
+This repository contains all the learning activities developed by _[Anderson Rodrigues](https://www.linkedin.com/in/anderson-rodrigues-915094226/)_ while studying at [Trybe](https://www.betrybe.com/ ) 🚀
 
 _'Trybe is a school of the future for anyone who wants to improve their lives and build a successful career in technology, where people only pay when they get a good job.'_
 
