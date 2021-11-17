@@ -5,3 +5,5 @@
 - CSS
 - Python
 - Javascript
+- Ethernet
+- React
