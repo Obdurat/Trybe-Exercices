@@ -1,14 +1,14 @@
-## Trybe HTML & CSS Intro :computer:
+# Trybe HTML & CSS Intro :computer:
 
-# HTML - (Hyper Text Markup Language) :keyboard:
+## HTML - (Hyper Text Markup Language) :keyboard:
 
 HTML is a marking text language and not a programming language, created by the cientific community because of a need at the time to share information on a more rich format. HTML enables you to put more information on what is bassically a sheet of paper.
 
-# HTML - How does it work ? :thinking:
+## HTML - How does it work ? :thinking:
 
 HTML is the skeleton of your page. giving it the foundation and structure needed for you to add information to it.
 
-# Why just not use simple Text ? :thinking:
+## Why just not use simple Text ? :thinking:
 
 Well, if you use just pure text there's several issues. For Example, how would you represent:
 
