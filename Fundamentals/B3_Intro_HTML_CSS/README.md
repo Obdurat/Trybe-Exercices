@@ -20,7 +20,7 @@ Well, if you use just pure text there's several issues. For Example, how would y
 
 ### HTML Tag Sintax (Ignore [*]):keyboard:
 
-<em><*tagName atributte="value">Tag contents /tagName*></em> - (<em><*tagName atributte="value"*></em>) Opens the tag, <*/tagName*> closes it. 
+<em><*tagName atributte="value">Tag contents <*/tagName></em> - (<em><*tagName atributte="value"></em>) Opens the tag, <*/tagName> closes it. 
 Note: Some tags may not need an attribute, value or closing.
 
 ### HTML Page Structure :bricks:
