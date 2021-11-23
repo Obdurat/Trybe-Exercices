@@ -1,7 +1,11 @@
-div:hover {border: solid black 2px;}
-div:nth-of-type(1) {background-color: red;font-style: italic;font-size: medium;}
-div:nth-of-type(2) {background-color: green;font-weight: 900;}
-div:nth-of-type(3) {background-color: blue; height: 50px;font-style: italic;font-size: medium;}
-div:nth-of-type(4) {background-color: yellow;font-family: cursive;}
-div:nth-of-type(5) {background-color: cyan;font-style: italic;font-size: medium;}
-
+ol li:nth-child(odd) {background-color: yellow;text-transform: uppercase;}
+ol li:nth-child(even) {background-color: yellow; color: green;}
+h1 {color: red;}
+h2 {color: red;}
+li {font-size: 20px;}
+li em {font-weight: 700;}
+ul:first-of-type li:nth-of-type(1) {color: blue;}
+ul:first-of-type li:nth-of-type(2) {color: blue;background-color: pink;}
+ul:first-of-type li:nth-of-type(3) {color: blue;background-color: pink;}
+ul:last-of-type li:hover {font-weight: 700;}
+ul:last-of-type li:nth-of-type(1) {color: green;}
