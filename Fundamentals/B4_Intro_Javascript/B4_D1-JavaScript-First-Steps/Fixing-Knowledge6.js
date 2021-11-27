@@ -1,5 +1,5 @@
 var candidateState;
-var possibilities = ['Aprovada', 'Lista', 'Reprovada']
+var possibilities = ['Aprovada', 'Lista', 'Reprovada', 'Não Encontrado']
 candidateState = possibilities[Math.floor(Math.random() * possibilities.length)];
 console.log(candidateState)
 
@@ -13,4 +13,5 @@ switch (candidateState) {
     case 'Reprovada':
         console.log('Infelizmente, você não passou no nosso processo selectivo.')
         break;
+    default: console.log('Sua tentativa ainda está sendo analizada.')
 }
