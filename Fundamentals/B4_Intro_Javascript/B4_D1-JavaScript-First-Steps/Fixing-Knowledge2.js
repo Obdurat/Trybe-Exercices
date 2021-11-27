@@ -13,5 +13,5 @@ const base = 5
 var height = 8
 area = (base * height)
 console.log(area)
-const perimeter = (base * 2 + height * 2)
+const perimeter = ((base * 2) + height * 2)
 console.log(perimeter)
