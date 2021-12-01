@@ -92,3 +92,44 @@
 // }else{
 //     console.log(input + '\xa0 é Primo')
 // }
+
+//Novos Exercicios
+
+//1 - crie um algoritmo que retorne o fatorial de 10
+
+// let test = 4
+// function fatorial(n) {
+//     if (n === 1){
+//         return 1
+//     }else{
+//         return n*fatorial(n-1)
+//     }    
+// }console.log(fatorial(test))
+
+//2 - Agora, desenvolva um algoritmo que é capaz de inverter uma palavra. Por exemplo, a palavra "banana" seria invertida para "ananab". Utilize a string abaixo como exemplo, depois troque por outras para verificar se seu algoritmo está funcionando corretamente.
+
+// let word = 'tryber';
+// let result = []
+
+// for (index = word.length -1; index >= 0; index -= 1) {
+//         result.push(word[index])
+// }console.log(result.join(''))
+
+//3 - Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
+
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let result;
+// for (let index = 1; index < array.length; index += 1) {
+//         if (array[index - 1].length < array[index].length) {
+//                 result = array[index]
+//         }
+// }console.log(result)
+
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let result;
+// for (let index = 1; index < array.length; index += 1) {
+//         if (array[index - 1].length > array[index].length) {
+//                 result = array[index]
+//         }
+// }console.log(result)
+
