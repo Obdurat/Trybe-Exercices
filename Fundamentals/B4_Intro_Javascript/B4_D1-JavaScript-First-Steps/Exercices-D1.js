@@ -215,42 +215,42 @@
 
 //Programa 11:
 
-const salary = Math.random() * (6000 - 1100) + 1100;
+// const salary = Math.random() * (6000 - 1100) + 1100;
 
-console.log('Seu Salario Bruto é' + ' ' + salary.toFixed(2))
+// console.log('Seu Salario Bruto é' + ' ' + salary.toFixed(2))
 
-var INSS;
+// var INSS;
 
-if (salary <= 1556.94) {
-    INSS = salary - salary * 0.08;
-    console.log('Seu INSS é de' + ' ' + (salary * 0.08).toFixed(2));
-}else if (salary <= 2594.92 && salary > 1556.94) {
-    INSS = salary - salary * 0.09;
-    console.log('Seu INSS é de' + ' ' + (salary * 0.09).toFixed(2))
-}else if (salary <= 5189.82 && salary > 2594.92) {
-    INSS = salary - salary * 0.11;
-    console.log('Seu INSS é de' + ' ' + (salary * 0.11).toFixed(2));
-}else{
-    INSS = salary - 570.88;
-    console.log('Seu INSS é de 570,88 Reais')
-}
+// if (salary <= 1556.94) {
+//     INSS = salary - salary * 0.08;
+//     console.log('Seu INSS é de' + ' ' + (salary * 0.08).toFixed(2));
+// }else if (salary <= 2594.92 && salary > 1556.94) {
+//     INSS = salary - salary * 0.09;
+//     console.log('Seu INSS é de' + ' ' + (salary * 0.09).toFixed(2))
+// }else if (salary <= 5189.82 && salary > 2594.92) {
+//     INSS = salary - salary * 0.11;
+//     console.log('Seu INSS é de' + ' ' + (salary * 0.11).toFixed(2));
+// }else{
+//     INSS = salary - 570.88;
+//     console.log('Seu INSS é de 570,88 Reais')
+// }
 
-var IR;
+// var IR;
 
-if (INSS <= 1903.98) {
-    IR = INSS;
-    console.log('Você está isento do imposto de renda'); 
-}else if (INSS > 1903.98 && INSS <=2826.65) {
-    IR = INSS - (INSS * 0.075 - 142.80);
-    console.log('Seu IR é de' + ' ' + (INSS * 0.075 - 142.80).toFixed(2));
-}else if (INSS > 2826.65 && INSS <= 3751.05) {
-    IR = INSS - (INSS * 0.15 - 354.80);
-    console.log('Seu IR é de' + ' ' + (INSS * 0.15 - 354.80).toFixed(2));
-}else if (INSS > 3751.05 && INSS <= 4664.68) {
-    IR = INSS - (INSS * 0.225 - 636.13);
-    console.log('Seu IR é de' + ' ' + (INSS * 0.225 - 636.13).toFixed(2));
-}else{
-    IR = INSS - (INSS * 0.275 - 869.36);
-    console.log('Seu IR é de' + ' ' + (INSS * 0.275 - 869.36).toFixed(2));
-}
-console.log('Seu sálario liquido será' + ' ' + IR.toFixed(2))
+// if (INSS <= 1903.98) {
+//     IR = INSS;
+//     console.log('Você está isento do imposto de renda'); 
+// }else if (INSS > 1903.98 && INSS <=2826.65) {
+//     IR = INSS - (INSS * 0.075 - 142.80);
+//     console.log('Seu IR é de' + ' ' + (INSS * 0.075 - 142.80).toFixed(2));
+// }else if (INSS > 2826.65 && INSS <= 3751.05) {
+//     IR = INSS - (INSS * 0.15 - 354.80);
+//     console.log('Seu IR é de' + ' ' + (INSS * 0.15 - 354.80).toFixed(2));
+// }else if (INSS > 3751.05 && INSS <= 4664.68) {
+//     IR = INSS - (INSS * 0.225 - 636.13);
+//     console.log('Seu IR é de' + ' ' + (INSS * 0.225 - 636.13).toFixed(2));
+// }else{
+//     IR = INSS - (INSS * 0.275 - 869.36);
+//     console.log('Seu IR é de' + ' ' + (INSS * 0.275 - 869.36).toFixed(2));
+// }
+// console.log('Seu sálario liquido será' + ' ' + IR.toFixed(2))
