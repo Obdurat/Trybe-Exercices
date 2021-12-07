@@ -4,12 +4,12 @@ const thirdLi = document.getElementById('third-li');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
 
-
 // 1. Copie esse arquivo e edite apenas ele;
 // 1.1. Antes de começar os exercícios, use o LiveServer para dar uma olhada em como está a página no navegador.
 // 1.2. Note que uma das caixas está um pouco acima das outras. Por que isso ocorre?
 
 // 2. Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
+
 firstLi.addEventListener('click', addTech);
 secondLi.addEventListener('click', addTech);
 thirdLi.addEventListener('click', addTech);
@@ -28,10 +28,8 @@ function addTech(origin) {
 input.addEventListener('keyup', addText)
 function addText() {
   let este = document.getElementsByClassName('tech');
-  este[0].innerText = input.value;
-  
+  este[0].innerText = input.value;  
 }
-input.value = ""
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
@@ -44,13 +42,13 @@ function redirect() {
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+
 myWebpage.addEventListener('mouseover', changeColor);
 function changeColor() {
   myWebpage.style.color = "blue";  
 }
 
 // Segue abaixo um exemplo do uso de event.target:
-
 
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
