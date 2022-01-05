@@ -3,6 +3,8 @@ window.onload = () => {
 
   const date = document.getElementById("initial-date");
 
+  const sendBtn = document.getElementById("send-btn");
+
   let childs = 0;
 
   let currentYear = new Date().getFullYear();
@@ -31,7 +33,20 @@ window.onload = () => {
     }
   });
 
-  const states = [    
+  sendBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    const main = document.getElementsByTagName("main");
+    const inputs = document.getElementsByTagName("input");
+    main[0].appendChild(document.createElement("div"));
+    main[0].children[1].innerText = "";
+    while (childs < inputs.length) {
+      main[0].children[1].innerText += inputs[childs].value;
+      main[0].children[1].appendChild(document.createElement('br'));      
+      childs += 1;
+    } childs = 0;
+  });
+
+  const states = [
     "Acre",
     "Alagoas",
     "Amapá",
