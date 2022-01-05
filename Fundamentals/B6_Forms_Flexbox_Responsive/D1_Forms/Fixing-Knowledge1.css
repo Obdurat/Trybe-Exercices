@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+header {
+  width: max-content;
+}
+
+.menu-bar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 6px;
+}
+
+.user-input {
+  display: block;
+  margin: 1vh auto;
+  border-radius: 15px;
+  padding-left: 1%;
+  border-color: white;
+}
+
+#image {
+  margin: 15vh auto;
+  display: flex;
+  max-width: 50vw;
+}
+
+main {
+  display: flexbox;
+}
+
+#log-btn {
+  width: 50vw;
+  margin: 2vh 25vw;
+  border-radius: 15px;
+  padding: 5px;
+  border-color: white;
+}
+
+body {
+  background: rgb(47, 193, 140);
+  background: radial-gradient(
+    circle,
+    rgba(47, 193, 140, 1) 52%,
+    rgba(3, 107, 82, 1) 96%
+  );
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+footer {
+  display: flexbox;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  text-shadow: 
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
