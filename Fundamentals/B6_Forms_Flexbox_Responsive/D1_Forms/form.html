@@ -1,77 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    
-</head>
-<body>
-    <main>
-        <form action="get">
-            <fieldset id="general">
-                <label for="input-name">
-                    Nome Completo
-                    <input type="text" required id="input-name" maxlength="40">
-                </label>
-                <br>
-                <label for="input-email">
-                    Email
-                    <input type="email" required id="input-email" maxlength="50">
-                </label>
-                <br>
-                <label for="input-name">
-                    CPF
-                    <input type="text" required id="input-cpf" maxlength="11">
-                </label>
-                <br>
-                <label for="input-adress">
-                    Endereço
-                    <input type="text" required id="input-adress" maxlength="200">
-                </label>
-                <br>
-                <label for="input-city">
-                    Cidade
-                    <input type="text" required id="input-city" maxlength="28">
-                </label>
-                <br>
-                <label for="input-state">
-                    Estado
-                    <select name="state" id="input-state">                                       
-                    </select>
-                </label>
-                <br>            
-                <input checked name="household" type="radio" required id="household1" class="household" value="Casa">                
-                <label for="household1">
-                    Casa                
-                </label>            
-                <input name="household" type="radio" id="household2" required class="household" value="Apartamento">
-                <label for="household2">
-                    Apartamento
-                </label>
-                <br>
-            </fieldset>
-            <fieldset id="resume">
-                <label for="profession">Ultimo Cargo
-                    <input type="text" id="profession" name="profession" maxlength="40">
-                </label>
-                <br>
-                <label for="profession-description">Descrição do cargo
-                    <input type="text" name="profession-description" id="profession-description" maxlength="500">
-                </label>
-                <br>
-                <label for="initial-date">Data de Inicio no ultimo emprego
-                    <input type="text" name="initial-date" id="initial-date" maxlength="10" placeholder="dd/mm/aaaa">
-                </label>
-                <br>
-                <br>
-                <textarea name="last-resume" id="last-job" cols="30" rows="10" maxlength="1000"></textarea>
-            </fieldset>
-            <button type="submit" formmethod="get" id="send-btn">Enviar</button>
-        </form>
-    </main>    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="outer-box" class="">
+      <h1 class="title is-3 has-text-centered pt-6">Formulário</h1>
+      <form id="inner-box1" class="box">
+        <fieldset class="box" id="general">
+          <div class="field">
+            <label class="label" for="input-name"> Nome Completo </label>
+            <div class="control">
+              <input
+                placeholder="Seu Nome"
+                class="input"
+                type="text"
+                required
+                id="input-name"
+                maxlength="40"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="input-email"> Email </label>
+            <div class="control">
+              <input
+                placeholder="Email"
+                class="input"
+                type="email"
+                required
+                id="input-email"
+                maxlength="50"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="input-name"> CPF </label>
+            <div class="control">
+              <input              
+                placeholder="CPF"
+                class="input"
+                type="text"
+                required
+                id="input-cpf"
+                maxlength="14"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="input-adress"> Endereço </label>
+            <div class="control">
+              <input
+                placeholder="Endereço"
+                class="input"
+                type="text"
+                required
+                id="input-adress"
+                maxlength="200"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="input-city"> Cidade </label>
+            <div class="control">
+              <input
+                placeholder="Cidade"
+                class="input"
+                type="text"
+                required
+                id="input-city"
+                maxlength="28"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="input-state"> Estado </label>
+            <div class="control">
+              <div class="select">
+                <select class="" name="Estado" id="input-state"></select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <input
+              placeholder="Moradia"
+                checked
+                name="household"
+                type="radio"
+                required
+                id="household1"
+                class="radio"
+                value="Casa"
+              />
+              <label class="radio" for="household1"> Casa </label>
+              <input
+              placeholder="Moradia"
+                name="household"
+                type="radio"
+                id="household2"
+                required
+                class="radio"
+                value="Apartamento"
+              />
+              <label class="radio" for="household2"> Apartamento </label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="box" id="resume">
+          <div class="field">
+            <label class="label" for="profession">Ultimo Cargo </label>
+            <div class="control">
+              <input
+                placeholder="Ultimo Cargo"
+                class="input"
+                type="text"
+                id="profession"
+                name="profession"
+                maxlength="40"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="profession-description"
+              >Descrição do cargo
+            </label>
+            <div class="control">
+              <input
+                placeholder="Descrição do Cargo"
+                class="input"
+                type="text"
+                name="profession-description"
+                id="profession-description"
+                maxlength="500"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="initial-date"
+              >Data de Inicio no ultimo emprego
+            </label>
+            <div class="control">
+              <input
+              style="width: 21%;"
+                class="input mr-10"
+                type="text"
+                name="initial-date"
+                id="initial-date"
+                maxlength="10"
+                placeholder="Data Ultimo Emprego"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <textarea
+                placeholder="Descreva seu último cargo"
+                class="textarea"
+                name="last-resume"
+                id="last-job"
+                cols="30"
+                rows="10"
+                maxlength="1000"
+              ></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <button class="button is-success" type="submit" id="send-btn">Enviar</button>
+        <button class="button is-warning" type="reset" id="reset-btn">Limpar</button>
+      </form>
+    </main>
+    <div id="modal-card" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Cheque suas Informações!</p>
+            <button id="modal-btn-close" class="delete" aria-label="close"></button>
+          </header>
+          <section id="modal-content" class="modal-card-body">
+            <!-- Content ... -->
+          </section>
+          <footer class="modal-card-foot">
+            <button id="modal-btn-save" class="button is-success">Enviar</button>
+            <button id="modal-btn-cancel" class="button">Cancelar</button>
+          </footer>
+        </div>
+      </div>
+      <div id="success-container" class="navbar is-fixed-bottom notification is-success has-text-centered" >
+        <button id="close-success"class="delete"></button>
+        Formulario Enviado com Sucesso!!        
+      </div>     
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
