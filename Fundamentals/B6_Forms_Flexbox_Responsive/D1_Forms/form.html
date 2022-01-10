@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <main>
+        <form action="get">
+            <fieldset id="general">
+                <label for="input-name">
+                    Nome Completo
+                    <input type="text" required id="input-name" maxlength="40">
+                </label>
+                <br>
+                <label for="input-email">
+                    Email
+                    <input type="email" required id="input-email" maxlength="50">
+                </label>
+                <br>
+                <label for="input-name">
+                    CPF
+                    <input type="text" required id="input-cpf" maxlength="11">
+                </label>
+                <br>
+                <label for="input-adress">
+                    Endereço
+                    <input type="text" required id="input-adress" maxlength="200">
+                </label>
+                <br>
+                <label for="input-city">
+                    Cidade
+                    <input type="text" required id="input-city" maxlength="28">
+                </label>
+                <br>
+                <label for="input-state">
+                    Estado
+                    <select name="state" id="input-state">                                       
+                    </select>
+                </label>
+                <br>            
+                <input checked name="household" type="radio" required id="household1" class="household" value="Casa">                
+                <label for="household1">
+                    Casa                
+                </label>            
+                <input name="household" type="radio" id="household2" required class="household" value="Apartamento">
+                <label for="household2">
+                    Apartamento
+                </label>
+                <br>
+            </fieldset>
+            <fieldset id="resume">
+                <label for="profession">Ultimo Cargo
+                    <input type="text" id="profession" name="profession" maxlength="40">
+                </label>
+                <br>
+                <label for="profession-description">Descrição do cargo
+                    <input type="text" name="profession-description" id="profession-description" maxlength="500">
+                </label>
+                <br>
+                <label for="initial-date">Data de Inicio no ultimo emprego
+                    <input type="text" name="initial-date" id="initial-date" maxlength="10" placeholder="dd/mm/aaaa">
+                </label>
+                <br>
+                <br>
+                <textarea name="last-resume" id="last-job" cols="30" rows="10" maxlength="1000"></textarea>
+            </fieldset>
+            <button type="submit" formmethod="get" id="send-btn">Enviar</button>
+        </form>
+    </main>    
+    <script src="script.js"></script>
+</body>
+</html>
