@@ -31,13 +31,13 @@ Is the Box border, pretty simple. But there's some properties we should take not
 The margin functions as the space between the border and the outside content. This is used mostly to spaces boxes between themselfs.
 
 ## <strong>Element Positioning:</strong> :keyboard:
-Changing the position of elements can open countless possibilities for our page layout. Using the tolls at our disposal.<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/position">With this values</a> We will be much more control as to where our boxes will be in our page. We can also use <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/float">Float</a> To remove an element from its originl flow in the page. And last but not least <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Positioning/Understanding_z_index">z-index</a> To control display layers.
+Changing the position of elements can open countless possibilities for our page layout. Using the tolls at our disposal.<a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/position">With this values</a> We will be much more control as to where our boxes will be in our page. We can also use <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/float">Float</a> To remove an element from its originl flow in the page. And last but not least <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Positioning/Understanding_z_index">z-index</a> To control display layers.
 
 ## <strong>Pseudo classes:</strong>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes">Pseudo classes</a> can enable you to write less code by grouping styles. Doing this we can correct quickly the style of the page. Imagine that you have to toggle dark-mode on your page. Making all backgrounds dark and texts bright. You would have to change 1 by 1. But now, you can just group selectors that will have the same changes !!! A simple <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover">hover</a> can add an entirely different experience to the user !!.
+<a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes">Pseudo classes</a> can enable you to write less code by grouping styles. Doing this we can correct quickly the style of the page. Imagine that you have to toggle dark-mode on your page. Making all backgrounds dark and texts bright. You would have to change 1 by 1. But now, you can just group selectors that will have the same changes !!! A simple <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover">hover</a> can add an entirely different experience to the user !!.
 
 ## <strong>CSS Combinator:</strong>
-You can also select a <a href="https://www.w3schools.com/css/css_combinators.asp">child element from the father element</a>, Example:
+You can also select a <a target="_blank" href="https://www.w3schools.com/css/css_combinators.asp">child element from the father element</a>, Example:
 <strong>fatherElement childElement {}</strong>
 
 
