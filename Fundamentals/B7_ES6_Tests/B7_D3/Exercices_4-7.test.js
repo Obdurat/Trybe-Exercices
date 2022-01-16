@@ -82,3 +82,9 @@ describe('Testa a função hydrate', () => {
     expect(functions.hydrate('4 caipirinhas e 2 cervejas')).toBe('6 copos de água');
   });
 });
+
+describe('Testa a função searchEmployee', () => {
+    it('Testa se searchEmployee existe', () => {
+        expect(functions.searchEmployee()).toBeDefined();
+    });
+})
