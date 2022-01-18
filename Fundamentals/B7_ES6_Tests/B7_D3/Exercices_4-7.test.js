@@ -85,6 +85,6 @@ describe('Testa a função hydrate', () => {
 
 describe('Testa a função searchEmployee', () => {
     it('Testa se searchEmployee existe', () => {
-        expect(functions.searchEmployee()).toBeDefined();
+        expect(functions.searchEmployee).toBeTruthy();
     });
 })
