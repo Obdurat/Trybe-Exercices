@@ -87,4 +87,12 @@ describe('Testa a função searchEmployee', () => {
     it('Testa se searchEmployee existe', () => {
         expect(functions.searchEmployee).toBeTruthy();
     });
+    it('Testa se searchEmployee tem o retorno esperado', () => {
+      expect(functions.searchEmployee('1256-4', 'firstName')).toBe('Linda');
+      expect(functions.searchEmployee('4678-2', 'firstName')).toBe('Paul');
+    });
+    it('verifica se searchEmployee joga erro ao passar com ID ou detalhe errados', () => {
+      expect(() => functions.searchEmployee('467', 'firstName')).toThrow('ID não identificada');
+      expect(() => functions.searchEmployee('4678-2', 'asdaasdsad')).toThrow('Informação indisponível');
+    });
 })

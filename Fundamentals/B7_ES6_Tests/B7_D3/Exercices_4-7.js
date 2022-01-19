@@ -96,8 +96,6 @@ const searchEmployee = (id, detail) => {
   } throw new Error('ID não identificada');
 };
 
-
-
 module.exports = {
   encode,
   decode,
