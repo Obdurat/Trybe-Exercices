@@ -132,18 +132,19 @@ function fantasyOrScienceFictionAuthors(array) {
 // 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
 function oldBooks(arr) {
-    // escreva seu código aqui
-    let oldNovels = oldBooksOrdered(arr);
-    oldNovels = oldNovels.map(element => `${element.name}`);
-    return oldNovels;
-  }
+  // escreva seu código aqui
+  let oldNovels = oldBooksOrdered(arr);
+  oldNovels = oldNovels.map((element) => `${element.name}`);
+  return oldNovels;
+}
 
 //   console.log(oldBooks(books));
 
 // 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
 function authorWith3DotsOnName(arr) {
-    // escreva seu código aqui
-    return arr.find(element => element.author.name.match(/\w\.\s\w\.\s\w\./g)).name;    
-  }
-//   console.log(authorWith3DotsOnName(books));
+  // escreva seu código aqui
+  return arr.find((element) => element.author.name.match(/\w\.\s\w\.\s\w\./g)).name;
+}
+
+console.log(authorWith3DotsOnName(books));
