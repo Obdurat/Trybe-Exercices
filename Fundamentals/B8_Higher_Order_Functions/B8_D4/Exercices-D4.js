@@ -142,4 +142,4 @@ function studentAverage(arr1, arr2) {
     }));
   }
 
-  console.log(studentAverage(students, grades))
+//   console.log(studentAverage(students, grades))
