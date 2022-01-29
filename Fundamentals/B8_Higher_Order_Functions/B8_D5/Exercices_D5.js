@@ -154,4 +154,4 @@ const yearSeasons = {
 
 const fetchMonths = ({ spring, summer, autumn, winter }) => [ ...spring, ...summer, ...autumn, ...winter ]
 
-// console.log(fetchMonths(yearSeasons));
+// console.log(fetchMonths(yearSeasons));ls
