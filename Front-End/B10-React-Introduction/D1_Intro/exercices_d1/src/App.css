@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10vh 1vw;
+}
+
+.content-card {
+  border: solid black 1px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px black;
+  transition: 0.5s;  
+}
+
+.footer {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.content-card:hover {
+  transform: scale(1.2);
+}
